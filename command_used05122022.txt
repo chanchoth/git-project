@@ -1,0 +1,83 @@
+    1  apt-get update
+    2  apt-get upgrade
+    3  apt-get install git
+    4  exit
+    5  apt-get update
+    6  apt-get upgrade
+    7  shutdown -h now
+    8  pwd
+    9  mkdir test
+   10  cd test/
+   11  mkdir test1
+   12  cd ..
+   13  rmdir -P V test
+   14  rmdir -P V test/
+   15  rmdir -PV test/
+   16  rmdir -pv test/
+   17  rmdir -pv test/test1/
+   18  ls 
+   19  mkdir test
+   20  cd test/
+   21  mkdir test1
+   22  cd ..
+   23  rm -r test/
+   24  ls 
+   25  cd home/chan/git-project/
+   26  ls
+   27  cat test1
+   28  grep test tes1
+   29  grep 1st test1 
+   30  grep test test1
+   31  lsof
+   32  man lsof
+   33  whoami 
+   34  exit
+   35  lsof -u chan
+   36  ssh -T git@github.com
+   37  whoami
+   38  exit
+   39  whoami
+   40  su chan
+   41  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \ /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   42  apt-get update
+   43  apt-get install fontconfig openjdk-11-jre
+   44  apt-get install jenkins
+   45  apt-get install curl
+   46  cat /etc/apt/sources.list
+   47  cat /etc/apt/sources.list | grep jenkins
+   48  cat /etc/apt/sources.list.d/jenkins.list 
+   49  apt-get update
+   50  apt-get install jenkins
+   51  cat /var/lib/jenkins/secrets/initialAdminPassword 
+   52  cd /media/chan/VBox_GAs_7.0.4/
+   53  ls
+   54  ./autorun.sh 
+   55  ls -la
+   56  sudo -s
+   57  ./runasroot.sh 
+   58  ./autorun.sh 
+   59  ./VBoxLinuxAdditions.run 
+   60  apt-get update && apt-get upgrade
+   61  exit
+   62  sudo apt install python3-pip ffmpeg
+   63  pip3 install youtube-dl
+   64  exit
+   65  chmod 777 sf_Downloads-Host/
+   66  ls -la
+   67  chown chan sf_Downloads-Host/
+   68  ls -la
+   69  cd sf_Downloads-Host/
+   70  exit
+   71  cd /home/chan/Downloads
+   72  ls
+   73  cp * /media/sf_Downloads-Host/
+   74  ls /media/sf_Downloads-Host/
+   75  rm *
+   76  ls
+   77  man youtube-dl 
+   78  cd ../
+   79  ls
+   80  ls git-project2/
+   81  ls git-project
+   82  cd git-project2
+   83  history > command_used05122022.txt
